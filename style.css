@@ -17,8 +17,7 @@ body {
 
 .containerGrid {
     display: grid;
-    border: 10px solid gray;
-    background-color: white;
+    border: 5px solid gray;
 }
 
 .buttonReset {
@@ -27,6 +26,7 @@ body {
 }
 
 .grid {
+    background-color: white;
 }
 
 .gridHover {
