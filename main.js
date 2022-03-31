@@ -6,6 +6,12 @@ const gridHeight = resolution[1]/cellSize;
 
 const gridCell = [];
 const body = document.querySelector('body');
+
+const buttonReset = document.createElement('button');
+buttonReset.textContent = 'Reset Grid';
+buttonReset.classList.add('buttonReset');
+body.appendChild(buttonReset);
+
 const containerGrid = document.createElement('div');
 containerGrid.classList.add('containerGrid')
 body.appendChild(containerGrid);

@@ -5,9 +5,12 @@
 
 body {
     background-color: #50ADEB;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    gap: 20px;
     width: 100vw;
     height: 100vh;
 }
@@ -16,6 +19,11 @@ body {
     display: grid;
     border: 10px solid gray;
     background-color: white;
+}
+
+.buttonReset {
+    width: 200px;
+    padding: 7px;
 }
 
 .grid {
